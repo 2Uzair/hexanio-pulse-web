@@ -147,5 +147,4 @@
   .glow-effect {
     @apply relative before:absolute before:inset-0 before:rounded-lg before:bg-gradient-to-r before:from-primary/20 before:to-primary-glow/20 before:blur-xl before:-z-10;
   }
-}
-}
+  }
