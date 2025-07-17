@@ -11,8 +11,8 @@ const AboutSection = () => {
               About <span className="text-primary">HEXANIO</span>
             </h2>
             <p className="text-large text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              We are a forward-thinking digital agency that bridges the gap between innovative technology 
-              and practical solutions. Our mission is to empower businesses through cutting-edge electrical AI, 
+              We are a forward-thinking AI innovation industry that bridges the gap between innovative technology 
+              and practical solutions. Our mission is to empower businesses through cutting-edge Embedded Solutions, 
               seamless web experiences, and intuitive mobile applications.
             </p>
           </div>

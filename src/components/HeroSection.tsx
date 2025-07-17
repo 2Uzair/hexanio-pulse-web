@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Zap } from "lucide-react";
+import Logo from "@/assets/logo.png"; 
 
 const HeroSection = () => {
   const scrollToSection = (sectionId: string) => {
@@ -19,15 +20,12 @@ const HeroSection = () => {
         <div className="max-w-4xl mx-auto space-y-8">
           {/* Logo/Brand */}
           <div className="flex items-center justify-center space-x-3 mb-12">
-            <div className="w-12 h-12 bg-gradient-to-br from-primary to-primary-glow rounded-lg flex items-center justify-center">
-              <Zap className="w-6 h-6 text-primary-foreground" />
-            </div>
-            <h1 className="text-3xl font-bold tracking-wider">HEXANIO</h1>
+            <img src={Logo} className="w-[260px] h-[70px]" />
           </div>
           
           {/* Hero Title */}
           <h2 className="text-hero text-foreground mb-6">
-            Digital Solutions
+            AI-Powered Solutions
             <span className="block bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">
               That Power Tomorrow
             </span>
@@ -35,8 +33,8 @@ const HeroSection = () => {
           
           {/* Tagline */}
           <p className="text-large text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            We craft cutting-edge electrical AI solutions, responsive web applications, 
-            and intuitive mobile experiences that transform your vision into reality.
+            We craft cutting-edge Embedded Solutions, responsive web applications, 
+            and intuitive mobile experiences that transform your vision into reality
           </p>
           
           {/* CTA Button */}

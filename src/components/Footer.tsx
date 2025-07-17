@@ -1,4 +1,5 @@
 import { Zap, Linkedin, Github, Twitter, Mail, Phone } from "lucide-react";
+import Logo from "@/assets/logo.png"; 
 
 const Footer = () => {
   const scrollToSection = (sectionId: string) => {
@@ -21,7 +22,7 @@ const Footer = () => {
                 <h3 className="text-2xl font-bold tracking-wider">HEXANIO</h3>
               </div>
               <p className="text-background/80 leading-relaxed mb-6 max-w-md">
-                Empowering businesses through cutting-edge electrical AI solutions, 
+                Empowering businesses through cutting-edge Embedded Solutions, 
                 seamless web experiences, and intuitive mobile applications.
               </p>
               <div className="flex items-center gap-4">
@@ -30,10 +31,10 @@ const Footer = () => {
                   className="flex items-center gap-2 text-background/80 hover:text-primary transition-colors"
                 >
                   <Mail className="w-4 h-4" />
-                  hello@hexanio.com
+                  info@hexanio.com
                 </a>
               </div>
-              <div className="flex items-center gap-4 mt-2">
+              {/* <div className="flex items-center gap-4 mt-2">
                 <a 
                   href="tel:+1555123456"
                   className="flex items-center gap-2 text-background/80 hover:text-primary transition-colors"
@@ -41,7 +42,7 @@ const Footer = () => {
                   <Phone className="w-4 h-4" />
                   +1 (555) 123-4567
                 </a>
-              </div>
+              </div> */}
             </div>
             
             {/* Quick Links */}
@@ -88,7 +89,7 @@ const Footer = () => {
               <h4 className="font-semibold mb-4">Services</h4>
               <ul className="space-y-3">
                 <li>
-                  <span className="text-background/80">Electrical AI Solutions</span>
+                  <span className="text-background/80">Embedded Solutions</span>
                 </li>
                 <li>
                   <span className="text-background/80">Web Development</span>
@@ -107,7 +108,7 @@ const Footer = () => {
           <div className="border-t border-background/20 pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center gap-4">
               {/* Social Links */}
-              <div className="flex items-center gap-4">
+              {/* <div className="flex items-center gap-4">
                 <span className="text-background/60 text-sm">Follow Us:</span>
                 <div className="flex gap-3">
                   <a 
@@ -135,7 +136,7 @@ const Footer = () => {
                     <Twitter className="w-4 h-4 text-background group-hover:text-primary-foreground" />
                   </a>
                 </div>
-              </div>
+              </div> */}
               
               {/* Copyright */}
               <div className="text-background/60 text-sm">

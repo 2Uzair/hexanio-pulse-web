@@ -5,7 +5,7 @@ const ServicesSection = () => {
   const services = [
     {
       icon: Zap,
-      title: "Electrical AI Solutions",
+      title: "Embedded Solutions",
       description: "Smart systems and automation powered by artificial intelligence. From smart grids to intelligent building management systems.",
       features: ["Smart Grid Technology", "IoT Integration", "Predictive Maintenance", "Energy Optimization"]
     },
