@@ -9,6 +9,7 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
+  base: '/hexanio-pulse-web/',
   plugins: [
     react(),
     mode === 'development' &&
